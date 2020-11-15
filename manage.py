@@ -4,6 +4,11 @@ import os
 import sys
 
 
+# MySQLを使うことを宣言
+# import pymysql
+# pymysql.install_as_MySQLdb()
+
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
@@ -20,3 +25,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+
